@@ -732,13 +732,22 @@ body {
   }
 
   /* Contact */
+  .contact-section .contact-details {
+    margin-left: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 75px;
+  }
+
+  .contact-section .branch-contact {
+    margin-bottom: -75px;
+  }
+
   .contact-details .label {
     display: none;
   }
 
   .contact-details .number {
     font-size: 18px;
-    grid-template-columns: repeat(3, 1fr);
   }
 }
 
