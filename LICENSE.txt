@@ -1,0 +1,10 @@
+Copyright 2023 Marmaris Barbers LTD
+
+All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the proprietary property of Marmaris Barbers and may not be used, copied, reproduced, distributed, sold, licensed, or otherwise exploited for any purposes whatsoever without the prior written consent of Marmaris Barbers.
+
+No warranties of any kind are given in relation to the Software, and all liabilities arising from the use or inability to use the Software are disclaimed.
+
+For permission requests or further information, contact:
+https://marmarisbarbers.co.uk
