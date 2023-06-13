@@ -1,7 +1,337 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.1/dist/ionicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="./assets/hero-banner.jpg">
+</head>
+
+<body id="top">
+
+  <!--
+    #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <a class="logo">
+        Marmaris
+        <span class="span">Traditional Turkish Barbers</span>
+      </a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#location" class="navbar-link" data-nav-link>Location</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#reviews" class="navbar-link" data-nav-link>Reviews</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="social-list flex justify-center space-x-4 md:space-x-8">
+        <li class="mx-4">
+          <a href="https://www.instagram.com/marmarisbarbertonbridge/?hl=en" class="social-link" target="_blank">
+            <ion-icon name="logo-instagram" class="text-6xl text-red-50"></ion-icon>
+          </a>
+        </li>
+        <li class="mx-4">
+          <a href="https://www.facebook.com/profile.php?id=100088148823081" class="social-link" target="_blank">
+            <ion-icon name="logo-facebook" class="text-6xl text-blue-50"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!--
+        #HERO
+      -->
+
+      <section class="section hero has-before has-bg-image" id="home" aria-label="home"
+        style="background-image: url('./assets/hero-banner.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">A Clean Cut Above The Rest</h1>
+
+          <p class="hero-text">
+            Marmaris Barbers is a traditional Turkish barber shop established in 2014 and still striving to deliver
+            excellence. Over the years, we have expanded our branches, opening two new shops in Tonbridge and one in
+            Hadlow. We are renowned for our top-quality barbering services and our unwavering commitment to customer
+            satisfaction. Our skilled barbers combine traditional Turkish techniques with modern trends to provide
+            exceptional haircuts and grooming experiences. At Marmaris Barbers, we value our customers and strive to
+            exceed their expectations. Choose Marmaris Barbers for the finest traditional Turkish barbering in Tonbridge
+            and experience the difference that sets us apart.
+          </p>
+
+          <a href="#services" class="btn has-before" data-nav-link>
+            <span class="span">Explore Our Services</span>
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>          
+
+        </div>
+      </section>
+
+      <!--
+        #SERVICE
+      -->
+
+      <section class="service-section" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Service We Provide</h2>
+          <p class="section-text text-center">Please note services are subject to change.</p>
+
+          <div class="service-panel">
+            <div class="service-card">
+              <div class="card-image card-image-1">
+                <img src="/assets/haircut.jpg" alt="Service 1">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Classic Hair Cut</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image card-image-2">
+                <img src="/assets/skinfade.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Skin Fade</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/beard.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Beard Trim and Shape</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/shave.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Traditional Turkish Shave</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/style.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Wash and Style</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/hottowel.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Hot Towel Shaving</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/massage.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Neck Massage</a>
+              </h3>
+            </div>
+
+            <div class="service-card">
+              <div class="card-image">
+                <img src="/assets/singeing.jpg" alt="Service 2">
+              </div>
+              <h3 class="h3">
+                <a class="card-title">Professional Singeing</a>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--
+        #LOCATION
+      -->
+
+      <section class="location-section" id="location" aria-label="location">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Our Branches</h2>
+          <p class="section-text text-center">Over the years we have expanded across several branches.</p>
+
+          <div class="branches">
+
+            <div class="branch">
+              <div class="left-section">
+                <h2 class="h3 branch-title text-left" style="margin-left: 20px;">2-12 Avebury Avenue, Tonbridge</h2>
+                <div class="opening-times">
+                  <p class="opening-times-item">Mon - Fri: 8:30 AM - 7:00 PM</p>
+                  <p class="opening-times-item">Saturday: 8:00 AM - 6:00 PM</p>
+                  <p class="opening-times-item">Sunday: 9:00 AM - 4:00 PM</p>
+                </div>
+                <div class="location-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.4334545177157!2d0.26920877693058676!3d51.19266423364667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4f4e8c930f29%3A0x2f5b4393244e02c3!2sMarmaris%20Barbers!5e0!3m2!1sen!2suk!4v1686220994230!5m2!1sen!2suk"
+                    class="map" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <div class="branch-image">
+                <img src="/assets/aveburyavenue.jpg" alt="Branch Image">
+              </div>
+            </div>
+
+            <div class="branch">
+              <div class="left-section">
+                <h2 class="h3 branch-title text-left" style="margin-left: 60px;">1 High Street, Tonbridge</h2>
+                <div class="opening-times">
+                  <p class="opening-times-item">Mon - Fri: 8:30 AM - 7:00 PM</p>
+                  <p class="opening-times-item">Saturday: 8:00 AM - 6:00 PM</p>
+                  <p class="opening-times-item">Sunday: 9:00 AM - 4:00 PM</p>
+                </div>
+                <div class="location-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.1103406731238!2d0.2717420696877353!3d51.19251849823395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df4fdf69977d9f%3A0x24c931b21721903!2sBoss%20Barbers!5e0!3m2!1sen!2suk!4v1686221801553!5m2!1sen!2suk"
+                    class="map" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <div class="branch-image">
+                <img src="/assets/highstreet.jpg" alt="Branch Image">
+              </div>
+            </div>
+
+            <div class="branch">
+              <div class="left-section">
+                <h2 class="h3 branch-title text-left" style="margin-left: 20px;">2 Martin Hardie Way, Tonbridge</h2>
+                <div class="opening-times">
+                  <p class="opening-times-item">Mon - Fri: 9:00 AM - 7:00 PM</p>
+                  <p class="opening-times-item">Saturday: 6:00 AM - 6:00 PM</p>
+                  <p class="opening-times-item">Sunday: Closed</p>
+                </div>
+                <div class="location-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.8388830139359!2d0.2939000343704211!3d51.21137200932449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df48dadfba3705%3A0x892a137c6bf891c2!2s2%20Martin%20Hardie%20Way%2C%20Tonbridge%20TN10%204AE%2C%20UK!5e0!3m2!1sen!2sus!4v1686221138067!5m2!1sen!2sus"
+                    class="map" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              <div class="branch-image">
+                <img src="/assets/martinhardieway.PNG" alt="Branch Image">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--
+        #REVIEWS
+      -->
+
+      <section class="reviews-section" id="reviews" aria-label="reviews">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Why Us?</h2>
+          <p class="section-text text-center">Your satisfaction is our top priority.</p>
+
+          <div class="reviews-details">
+            <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/152408' frameborder='0' width='100%' height='1000'></iframe>
+          </div>
+
+        </div>
+      </section>
+
+      <!--
+        #CONTACT
+      -->
+
+      <section class="contact-section" id="contact" aria-label="contact">
+        <div class="container">
+          <h2 class="h2 section-title text-center">Get In Touch</h2>
+          <p class="section-text text-center">For any enquiries, don't hesitate to contact us.</p>
+
+          <div class="contact-details">
+            <div class="branch-contact">
+              <h3 class="h3">Avebury Avenue Branch</h3>
+              <p><span class="label">Phone:</span><a href="tel:01732 363929" class="number">01732 363929</a></p>
+            </div>
+
+            <div class="branch-contact">
+              <h3 class="h3">Tonbridge High St Branch</h3>
+              <p><span class="label">Phone:</span><a href="tel:01732 363929" class="number">01732 363929</a></p>
+            </div>
+
+            <div class="branch-contact">
+              <h3 class="h3">Martin Hardie Way Branch</h3>
+              <p><span class="label">Phone:</span><a href="tel:01732 363929" class="number">01732 921873</a></p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!--
+    #FOOTER
+  -->
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer">
+        <p class="copyright">
+          &copy; 2023 Marmaris Barbers. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--
+    #BACKTOTOP
+  -->
+
+  <a href="#home" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+
 </body>
+
 </html>
