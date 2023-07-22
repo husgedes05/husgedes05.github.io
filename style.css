@@ -1060,4 +1060,10 @@ body {
   .reviews-section {
     max-width: 1300px;
   }
+
+  /* Contact */
+  .contact-section .contact-details {
+    margin-left: 100px;
+  }
+  
 }
