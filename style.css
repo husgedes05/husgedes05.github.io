@@ -1010,6 +1010,11 @@ body {
     max-width: 1020px;
   }
 
+  /* Contact */
+  .branch-contact {
+    margin-left: 100px;
+  }
+
 }
 
 @media (min-width: 1200px) and (min-device-width: 1600px) {
@@ -1062,7 +1067,7 @@ body {
   }
 
   /* Contact */
-  .contact-section .contact-details {
+  .branch-contact {
     margin-left: 100px;
   }
   
